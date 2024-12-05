@@ -1,0 +1,22 @@
+2024-12-05 05:45:54.744 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-05 05:45:54.894 [info] Started local extension host with pid 14486.
+2024-12-05 05:45:55.307 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at ucs.getElementLocation (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:10495)
+    at ucs.rerender (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:8594)
+    at d9e.rerender (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:18374)
+    at gb.refreshSingleElement (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:67114)
+    at gb.renderTree (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:66898)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:65971
+    at Set.forEach (<anonymous>)
+    at gb.updateElementsByKey (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:65955)
+    at vZ.value (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:43704)
+    at E._deliver (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:923)
+2024-12-05 05:45:56.033 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-05 05:45:59.649 [info] [perf] Render performance baseline is 34ms
+2024-12-05 05:47:44.677 [info] Started local extension host with pid 14748.
+2024-12-05 05:47:47.441 [info] [perf] Render performance baseline is 40ms
+2024-12-05 05:48:34.781 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /home/bean1134/.wakatime/wakatime-cli-linux-amd64 --entity /home/bean1134/dotfiles/.config/sway/config.d/50-rules-pavucontrol.conf --plugin "vscode/1.95.3 vscode-wakatime/24.7.2" --lineno 1 --cursorpos 1 --lines-in-file 13 --alternate-project dotfiles --project-folder /home/bean1134/dotfiles
+
+2024-12-05 05:48:34.782 [error] [Extension Host] [WakaTime][ERROR] Invalid Api Key (104); Make sure your Api Key is correct!
+2024-12-05 05:48:57.630 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /home/bean1134/.wakatime/wakatime-cli-linux-amd64 --entity /home/bean1134/dotfiles/.config/waybar/config --plugin "vscode/1.95.3 vscode-wakatime/24.7.2" --lineno 1 --cursorpos 1 --lines-in-file 215 --alternate-project dotfiles --project-folder /home/bean1134/dotfiles
+

@@ -1,0 +1,11 @@
+2024-12-05 05:44:14.910 [info] Extension host with pid 14083 started
+2024-12-05 05:44:15.197 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-05 05:44:15.221 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-05 05:44:15.357 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-05 05:44:15.467 [info] Eager extensions activated
+2024-12-05 05:44:15.483 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-05 05:44:15.488 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-05 05:44:25.823 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-05 05:45:15.035 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: false, activationEvent: '*'
+2024-12-05 05:45:48.840 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-05 05:45:48.849 [info] Extension host with pid 14083 exiting with code 0

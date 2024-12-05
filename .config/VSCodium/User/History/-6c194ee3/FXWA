@@ -1,0 +1,11 @@
+smart_borders on
+gaps inner 5
+gaps outer 3
+default_border pixel 3
+corner_radius 10
+shadows enable
+shadows_on_csd enable
+shadow_blur_radius 20
+blur enable
+blur passes 2
+blur_radius 3

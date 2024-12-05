@@ -1,0 +1,4 @@
+smart_borders on
+gaps inner 5
+gaps outer 3
+default_border pixel 3
