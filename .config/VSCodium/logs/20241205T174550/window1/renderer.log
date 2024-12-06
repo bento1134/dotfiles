@@ -1,0 +1,8 @@
+2024-12-05 17:45:51.130 [info] Started local extension host with pid 4354.
+2024-12-05 17:45:53.804 [info] [perf] Render performance baseline is 23ms
+2024-12-05 17:45:56.081 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /home/bean1134/.wakatime/wakatime-cli-linux-amd64 --entity /home/bean1134/dotfiles/.config/waybar/style.css --plugin "vscode/1.95.3 vscode-wakatime/24.7.2" --lineno 45 --cursorpos 18 --lines-in-file 54 --alternate-project dotfiles --project-folder /home/bean1134/dotfiles
+
+2024-12-05 17:46:10.040 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /home/bean1134/.wakatime/wakatime-cli-linux-amd64 --entity /home/bean1134/dotfiles/.config/waybar/config --plugin "vscode/1.95.3 vscode-wakatime/24.7.2" --lineno 29 --cursorpos 28 --lines-in-file 214 --alternate-project dotfiles --project-folder /home/bean1134/dotfiles
+
+2024-12-05 17:46:16.328 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /home/bean1134/.wakatime/wakatime-cli-linux-amd64 --entity /home/bean1134/dotfiles/.config/waybar/style.css --plugin "vscode/1.95.3 vscode-wakatime/24.7.2" --lineno 45 --cursorpos 18 --lines-in-file 54 --alternate-project dotfiles --project-folder /home/bean1134/dotfiles
+

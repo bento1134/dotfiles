@@ -1,0 +1,56 @@
+@import "./rose-pine-moon.css";
+/* @import "./rose-pine-moon.css"; */
+/* @import "./rose-pine-dawn.css"; */
+
+* {
+    /* reference the color by using @color-name */
+    background: @base;
+    /*border: 1px solid @overlay;*/
+  }
+  
+  #memory {
+    color: @foam;
+  }
+  
+  #temperature {
+    color: @rose;
+  }
+  #battery{
+    color: @foam
+  }
+  #battery.charging {
+    color: @foam
+  }
+  #battery.warning:not(.charging){
+    color: @gold
+  }
+  #battery.critical:not(.charging){
+    color: @love
+  }
+  #bluetooth {
+    color: @iris
+  }
+  #network {
+    color: @pine
+  }
+  #custom-power{
+    color: @highlightHigh
+  }
+  #clock {
+    color: @foam
+  }
+  #pulseaudio {
+    color: @gold
+  }
+  #idle_inhibitor{
+    color: @highlightHigh
+  }
+  #workspaces button{
+      color: @pine
+  }
+  #workspaces button{
+    color: @ivy
+  }
+  #window{
+      color: @pine
+  }

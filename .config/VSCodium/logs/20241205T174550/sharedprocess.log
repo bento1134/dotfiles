@@ -1,0 +1,12 @@
+2024-12-05 19:39:58.887 [info] Getting Manifest... brunnerh.insert-unicode
+2024-12-05 19:40:00.265 [info] Installing extension: brunnerh.insert-unicode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/bean1134/.vscode-oss/extensions/extensions.json","path":"/home/bean1134/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-16T01:21:03.577Z"}}
+2024-12-05 19:40:02.503 [info] Extracted extension to file:///home/bean1134/.vscode-oss/extensions/brunnerh.insert-unicode-0.15.1-universal: brunnerh.insert-unicode
+2024-12-05 19:40:02.516 [info] Renamed to /home/bean1134/.vscode-oss/extensions/brunnerh.insert-unicode-0.15.1-universal
+2024-12-05 19:40:02.534 [info] Extension installed successfully: brunnerh.insert-unicode vscode-userdata:/home/bean1134/.vscode-oss/extensions/extensions.json
+2024-12-05 19:40:02.552 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/bean1134/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/bean1134/.vscode-oss/extensions/extensions.json.vsctmp'
+    at um.create (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44274)
+    at Ei (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44381)
+    at Fn.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28542)
+    at Fn.stat (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20509)
+    at async Zl.stat (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101684)
+    at async Gl.onDidFilesChange (file:///usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79904)

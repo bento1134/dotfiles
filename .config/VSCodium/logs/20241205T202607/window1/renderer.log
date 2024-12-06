@@ -1,0 +1,10 @@
+2024-12-05 20:26:08.727 [info] Started local extension host with pid 16714.
+2024-12-05 20:26:11.845 [info] [perf] Render performance baseline is 73ms
+2024-12-05 20:26:21.698 [error] Unable to read file '/home/bean1134/dotfiles/README.md' (Error: File not modified since): Error: Unable to read file '/home/bean1134/dotfiles/README.md' (Error: File not modified since)
+    at Pnt.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96461)
+    at Pnt.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96326)
+    at async qnt.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3095:12969)
+    at async qnt.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3095:12724)
+    at async Aue.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1275:15912)
+    at async Aue.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1275:14074)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3095:7686

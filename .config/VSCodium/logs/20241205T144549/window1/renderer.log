@@ -1,0 +1,13 @@
+2024-12-05 14:45:50.121 [info] Started local extension host with pid 112751.
+2024-12-05 14:45:52.804 [info] [perf] Render performance baseline is 25ms
+2024-12-05 15:23:43.999 [error] r.commandPalette is not iterable: TypeError: r.commandPalette is not iterable
+    at YHe.render (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:657:87571)
+    at OQe.renderTableData (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2211:6699)
+    at OQe.create (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2211:6379)
+    at new OQe (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2211:4640)
+    at tdt._createInstance (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:2018)
+    at tdt.createInstance (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:1448)
+    at PQe.showFeatureView (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2211:2224)
+    at vZ.value (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2211:1012)
+    at E._deliver (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:923)
+    at E._deliverQueue (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1014)

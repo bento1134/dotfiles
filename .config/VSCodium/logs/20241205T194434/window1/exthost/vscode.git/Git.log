@@ -1,0 +1,38 @@
+2024-12-05 19:44:37.751 [info] [main] Log level: Info
+2024-12-05 19:44:37.751 [info] [main] Validating found git in: "git"
+2024-12-05 19:44:37.752 [info] [main] Using git "2.47.1" from "git"
+2024-12-05 19:44:37.752 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-05 19:44:37.752 [info] > git rev-parse --show-toplevel [21ms]
+2024-12-05 19:44:37.752 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-12-05 19:44:37.752 [info] [Model][openRepository] Opened repository: /home/bean1134/dotfiles
+2024-12-05 19:44:37.780 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-05 19:44:37.781 [info] > git config --get commit.template [19ms]
+2024-12-05 19:44:37.809 [info] > git rev-parse --show-toplevel [16ms]
+2024-12-05 19:44:37.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-05 19:44:37.821 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-05 19:44:37.858 [info] > git rev-parse --show-toplevel [30ms]
+2024-12-05 19:44:37.869 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-12-05 19:44:37.871 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-05 19:44:37.871 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-05 19:44:37.887 [info] > git status -z -uall [47ms]
+2024-12-05 19:44:38.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [192ms]
+2024-12-05 19:44:38.192 [info] > git config --local branch.main.vscode-merge-base [79ms]
+2024-12-05 19:44:38.193 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-05 19:44:38.206 [info] > git config --get commit.template [106ms]
+2024-12-05 19:44:38.315 [info] > git show --textconv :.config/waybar/style.css [11ms]
+2024-12-05 19:44:38.317 [info] > git reflog main --grep-reflog=branch: Created from *. [112ms]
+2024-12-05 19:44:38.344 [info] > git check-ignore -v -z --stdin [14ms]
+2024-12-05 19:44:38.345 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2024-12-05 19:44:38.345 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-05 19:44:38.345 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-05 19:44:38.352 [info] > git ls-files --stage -- /home/bean1134/dotfiles/.config/waybar/style.css [39ms]
+2024-12-05 19:44:38.372 [info] > git cat-file -s 7393ba984c882fe93a865cbee43c9d453cb5fd16 [13ms]
+2024-12-05 19:44:38.373 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2024-12-05 19:44:38.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-12-05 19:44:38.400 [info] > git diff --name-status -z --diff-filter=ADMR 85e5293d01d0ee63fcb3b44f6fdb47f39a7a23ee...refs/remotes/origin/main [20ms]
+2024-12-05 19:44:38.433 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-12-05 19:44:38.470 [info] > git status -z -uall [55ms]
+2024-12-05 19:44:40.909 [info] > git config --get commit.template [10ms]
+2024-12-05 19:44:40.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-05 19:44:40.928 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-05 19:44:40.944 [info] > git status -z -uall [25ms]
